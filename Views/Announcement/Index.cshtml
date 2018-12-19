@@ -1,0 +1,10 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<html>
+    <body>
+        <form asp-controller="Announcement" asp-action="Post" method="POST">
+            <textarea name="message"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>
